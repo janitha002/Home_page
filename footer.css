@@ -1,0 +1,26 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+}
+
+.navbar .copyright {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar .copyright p {
+    margin: 0;
+}
+
+.navbar .copyright p::before {
+    content: "\00a9";
+    margin-right: 5px;
+}

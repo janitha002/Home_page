@@ -1,0 +1,84 @@
+.content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    text-align: center;
+    color: white;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("Background Icons and resources/cover.jpg");
+    margin-top: 0%;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.welcome-text {
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+    background-image: url("Background Icons and resources/welcome_text_bg.png");
+    padding: 20px;
+   
+    
+}
+
+
+.welcome-title {
+    font-size: 44px;
+    color: white;
+}
+
+.company-name {
+    font-size: 28px;
+    color: orange;
+}
+
+
+.subject {
+    text-align: center;
+
+}
+
+.our{
+    margin-top: 150px;
+}
+
+.our h1 {
+    display: inline-block;
+    color: orange;
+    background-image: url('Background Icons and resources/our_teams_border.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 10px; 
+    line-height:  normal;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.image-gallery img {
+    max-width: 200px; 
+    margin: 0 30px;
+}
+
